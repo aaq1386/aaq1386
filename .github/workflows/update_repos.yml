@@ -1,15 +1,18 @@
 name: Update Latest Repos Table
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: '0 0 * * *'
   push:
     branches:
       - main
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false   
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
