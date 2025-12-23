@@ -43,10 +43,6 @@ The animation updates every 6 hours and is available in both dark and light mode
 
 ---
 
-## 📂 Latest Projects
-
-<!-- REPOS-START -->
-<!-- REPOS-END -->
 
 <p align="center">
   🌟 Keep coding, keep fighting, keep dreaming! 🌟
